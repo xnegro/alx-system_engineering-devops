@@ -1,2 +1,2 @@
 #!/bin/bash
-cd "$(grep ^"$USER:" /etc/passwd | cut -d: -f6)"
+cd $(grep ^$(whoami): /etc/passwd | cut -d: -f6)
