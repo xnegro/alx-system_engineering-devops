@@ -1,2 +1,2 @@
 #!/bin/bash
-{ ls -la $(pwd); ls -la ..; ls -la /boot; } | sort -k 9
+ls -al . .. /boot
